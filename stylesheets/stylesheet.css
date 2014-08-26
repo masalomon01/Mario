@@ -98,7 +98,7 @@ table {
 {
 	clear: left;
 	padding: 20px;
-	background: url('../images/test.jpg') #ccc no-repeat 0% 50%;
+	background: url('../images/test.jpg') #000 no-repeat center;
 
 }
 
