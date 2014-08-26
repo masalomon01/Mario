@@ -125,7 +125,11 @@ table {
 #footer
 {
 	background: #0090ff;
-	text-align: right;
-	padding: 80px;
+	text-align: center;
+	padding: 20px;
 	height: 1%;
+}
+#footer h4
+{
+	text-align: right;
 }
