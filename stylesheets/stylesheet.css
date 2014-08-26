@@ -41,12 +41,12 @@ table {
 #container
 {
 	margin: 0 1px;
-	background: #fff;
+	background: #ccc;
 }
 
 #header
 {
-	background: #ccc;
+	background: #0090ff;
 	padding: 80px;
 	font-size: 160%;
 }
