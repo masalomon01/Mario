@@ -55,6 +55,8 @@ table {
 	background: #0090ff;
 	padding: 80px;
 	font-size: 160%;
+	text-align: center;
+	height: 1%;
 }
 
 #header h1 { margin: 0; }
@@ -96,7 +98,7 @@ table {
 {
 	clear: left;
 	padding: 20px;
-	background: url('../images/test.jpg') #ccc no-repeat 0% 0%;
+	background: url('../images/test.jpg') #ccc no-repeat 0% 50%;
 
 }
 
