@@ -89,7 +89,9 @@ table {
 #content
 {
 	clear: left;
-	padding: 80px;
+	padding: 20px;
+	background: url('../images/test.jpg') #ccc no-repeat 95% 50%;
+
 }
 
 #content h2
