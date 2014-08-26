@@ -42,10 +42,13 @@ table {
 {
 	/*margin: 0 1px;*/
 	background: url('../images/test.jpg');
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+    background-position: left top;
 
 }
 
-/*#header
+#header
 {
 	background: #0090ff;
 	padding: 80px;
@@ -87,7 +90,7 @@ table {
 #navigation li a:hover { background: #383; }
 */
 
-/*#content
+#content
 {
 	clear: left;
 	padding: 20px;
@@ -108,4 +111,4 @@ table {
 	text-align: right;
 	padding: 80px;
 	height: 1%;
-}*/ 
+}
