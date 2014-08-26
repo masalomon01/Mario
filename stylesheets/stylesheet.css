@@ -41,7 +41,7 @@ table {
 #container
 {
 	margin: 0 1px;
-		background: url('../images/test.jpg') #ccc no-repeat 0% 0%;
+	background: url('../images/test.jpg');
 
 }
 
