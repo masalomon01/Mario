@@ -47,7 +47,7 @@ table {
 #header
 {
 	background: #ccc;
-	padding: 200px;
+	padding: 80px;
 }
 
 #header h1 { margin: 0; }
@@ -100,8 +100,8 @@ table {
 
 #footer
 {
-	background: #ccc;
+	background: #0090ff;
 	text-align: right;
-	padding: 20px;
+	padding: 80px;
 	height: 1%;
 }
