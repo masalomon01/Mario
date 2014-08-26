@@ -41,7 +41,8 @@ table {
 #container
 {
 	margin: 0 1px;
-	background: #ccc;
+		background: url('../images/test.jpg') #ccc no-repeat 0% 0%;
+
 }
 
 #header
@@ -89,7 +90,7 @@ table {
 #content
 {
 	clear: left;
-	padding: 200px;
+	padding: 20px;
 	background: url('../images/test.jpg') #ccc no-repeat 0% 0%;
 
 }
