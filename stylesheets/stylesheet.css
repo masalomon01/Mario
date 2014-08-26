@@ -52,6 +52,7 @@ table {
 
 #header h1 { margin: 0; }
 
+/* No navigation needed
 #navigation
 {
 	float: left;
@@ -82,6 +83,7 @@ table {
 }
 
 #navigation li a:hover { background: #383; }
+*/
 
 #content
 {
