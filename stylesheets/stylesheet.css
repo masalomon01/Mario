@@ -16,7 +16,9 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
+  /*vertical-align: baseline;*/
+  height:100%;
+
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -40,7 +42,6 @@ table {
 
 #container
 {
-	height:100%;
 	/*margin: 0 1px;*/
 	background: url('../images/test.jpg');
 	background-size: auto 100%;
