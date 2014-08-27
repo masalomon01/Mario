@@ -122,6 +122,8 @@ table {
 	font-size: 160%;
 	margin: 0 0 .5em;
 	text-align: center;
+	background: #000;
+	height: 40px;
 }
 
 #footer
@@ -130,7 +132,7 @@ table {
 	width: 100%;
 	background: #0090ff;
 	margin: 0;
-	padding: 0;
+	padding: 20;
 	text-align: center;	
 }
 #footer h4
