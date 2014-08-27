@@ -63,11 +63,12 @@ table {
 	font-size: 250%;
 	color: #fff;
 	height: 50px;
+	padding-top: 40px;
 
 }
 
 #header h2 {
-	padding-bottom: 0;
+	padding-top: 30px;
 	color: #fff;
 	font-size: 150%;
 	height: 50px;
