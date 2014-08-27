@@ -121,10 +121,12 @@ table {
 	color: #fff;
 	font-size: 160%;
 	margin: 0;
+	padding: 0;
 	text-align: center;
 	background: #000;
 	height: 40px;
 	width: 100%;
+	line-height: 40px;
 }
 
 #footer
