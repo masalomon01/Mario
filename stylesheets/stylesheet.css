@@ -55,19 +55,17 @@ table {
 	background: #0090ff;
 	text-align: center;
 	height: 150px;
-	padding-top: 40px;
+	font-family: Helvetica;
 }
 
 #header h1 { 
-	font-family: Helvetica;
+	
 	font-size: 250%;
 	color: #fff;
 
 }
 
 #header h2 {
-	font-family: Helvetica;
-	margin: 0;
 	padding-top: 10px;
 	color: #fff;
 	font-size: 150%;
