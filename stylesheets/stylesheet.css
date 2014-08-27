@@ -112,6 +112,7 @@ table {
 {
 	clear: left;
 	padding-top: 40px;
+	margin: 40pc auto;
 	height: 920px;
 	background: url('../images/test.jpg') #fff no-repeat center;
 
@@ -121,8 +122,8 @@ table {
 {
 	color: #fff;
 	font-size: 160%;
-	margin: 0;
-	padding: 0;
+	position: fixed;
+	top: 150px;
 	text-align: center;
 	background: #000;
 	height: 40px;
