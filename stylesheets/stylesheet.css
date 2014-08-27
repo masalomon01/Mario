@@ -43,17 +43,18 @@ table {
 #container
 {
 	/*margin: 0 1px;
-	background: url('../images/test.jpg');
 	background-size: auto 100%;
 	background-repeat: no-repeat;
     background-position: center;*/
+    background: #0090ff;
 
 }
 
 #header
 {
-	background: #0090ff;
-	height: 150px;
+	/*background: #0090ff;
+	height: 150px;*/
+	margin: 10px 0;
 	text-align: center;
 	font-family: Helvetica;
 }
