@@ -121,7 +121,7 @@ table {
 {
 	color: #fff;
 	font-size: 160%;
-	/*position: fixed;*/
+	position: absolute;
 	top: 150px;
 	text-align: center;
 	background: #000;
