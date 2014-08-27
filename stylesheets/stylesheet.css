@@ -128,10 +128,11 @@ table {
 {
 	background: #0090ff;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 	height: 150px;
 }
 #footer h4
 {
 	text-align: right;
+	margin-bottom: 20px;
 }
