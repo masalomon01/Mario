@@ -46,14 +46,12 @@ table {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
     background-position: center;*/
-    background: #0090ff;
-
 }
 
 #header
 {
-	/*background: #0090ff;
-	height: 150px;*/
+	background: #0090ff;
+	height: 150px;
 	margin: 10px 0;
 	text-align: center;
 	font-family: Helvetica;
@@ -67,6 +65,7 @@ table {
 }
 
 #header h2 {
+	padding-bottom: 10px;
 	color: #fff;
 	font-size: 150%;
 }
