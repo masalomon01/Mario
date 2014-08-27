@@ -62,13 +62,15 @@ table {
 	
 	font-size: 250%;
 	color: #fff;
+	height: 50px;
 
 }
 
 #header h2 {
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	color: #fff;
 	font-size: 150%;
+	height: 50px;
 }
 
 /* No navigation needed
