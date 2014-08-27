@@ -126,11 +126,12 @@ table {
 
 #footer
 {
-	background: #0090ff;
-	text-align: center;
 	height: 150px;
-	padding: 20px;
-	
+	width: 100%;
+	background: #0090ff;
+	margin: 0;
+	padding: 0;
+	text-align: center;	
 }
 #footer h4
 {
