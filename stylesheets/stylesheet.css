@@ -53,6 +53,7 @@ table {
 #header
 {
 	background: #0090ff;
+	height: 150px;
 	text-align: center;
 	font-family: Helvetica;
 }
