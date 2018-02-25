@@ -14,6 +14,12 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-113343666-1');
 		</script>
+		<!-- Quick maths image randomizer function-->
+		<script>
+			function imag_randomizer(path, imgarray) {
+				document.write(path + imgarray[Math.floor(Math.random() * imgarray.length)] + '" alt="" />')
+            }
+		</script>
 		<title>Mario Salomon</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,11 +31,13 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- One -->
+				<!-- Intro Banner -->
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Mario Salomon</h1>
-							<p class="major">Director of Product Operations at <a href="http://metropia.com/team/mario-salomon">Metropia</a>. <br /> Product Manager | Project Director <br />with a passion in bringing powerful ideas to life.</p>
+							<p class="major"> <!--Director of Product Operations at <a href="http://metropia.com/team/mario-salomon">Metropia</a>. <br /> --> 
+								Product Manager | Project Director 
+								<br />with a passion in bringing powerful ideas to life.</p>
 							<ul class="actions default">
 								<li><a href="mailto:mario.salomon07@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 								<li><a href="https://www.linkedin.com/in/mariosalomon/" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
@@ -40,16 +48,52 @@
 							</ul>
 						</div>
 						<div class="image">
-						<script>
-							//Add your images, we'll set the path in the next step
-								var images = ['close_up_food.JPG', 'banner_interview.JPG', 'mario_chicago.JPG', 'metropia_tuc_launch.jpg', 'me_gc2.JPG'];
-							//Build the img, then do a bit of quick maths to randomize load and append to a div.
-								document.write('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '" alt="" />')
-						</script>
+							<script>
+								//Add your images, we'll set the path in the next step
+									var images = ['close_up_food.JPG', 'mario_chicago.JPG', 'metropia_tuc_launch.jpg', 'me_gc2.JPG'];
+									var path = '<img src="images/'
+								//Call imag_randomizer function
+									imag_randomizer(path, images)
+									//document.write('<img src="images/' + images[Math.floor(Math.random() * images.length)] + '" alt="" />')	
+							</script>
 						</div>
-						<!--div class="image">
-							<img src="./images/banner_la_beach.jpg" alt="" />
-						</div-->
+					</section>
+
+					<!-- Experience -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Experience</h2>
+							<header>
+								<h3><a href="http://metropia.com/team/mario-salomon">Director of Product Operations</a></h3>
+								<p><a href="http://metropia.com">@Metropia Inc.</a> (2013 – Present)
+								<br />As one of the first hires for the software startup, quickly rose through the ranks Product Operations Engineer 
+									>> Product Operations Engineering Lead >> Director of Product Operations and played a direct and critical role 
+									in the growth from a $500K valuation and three FTE to a B round pre-money valuation of $30M and 30 FTE. 
+								</p>
+							</header>
+							<header>
+								<h3><a href="http://news.utep.edu/students-campus-sustainability-plan-starts-with-recycling/">Project Director</a> <!-- http://gogreen.utep.edu/index.html other link --></h3>
+								<p><a href="https://my.utep.edu">@University of Texas at El Paso</a> (2011 – 2013)
+								<br />During my graduate studies, I took a passion in extending my research outside the lab into real life. Started as 
+									a Research Assistant and moved on to Project Director as I was able to secure funding and, hire and lead student 
+									teams that brought a Bike Sharing System and Optimized Busing Routes for UTEP a 25K student commuter University. 
+							</p>
+						</header>
+						<!-- 
+							<ul class="actions vertical">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						-->
+						</div>
+						<div class="image">
+							<script>
+									//Add your images, & path
+										var images = ['banner_interview.jpg', 'its_pannel.jpg', 'pres_its.jpeg', 'tts_booth.JPG'];
+										var path = '<img src="images/experience/'
+									//Call imag_randomizer function
+										imag_randomizer(path, images)
+							</script>
+						</div>
 					</section>
 
 
